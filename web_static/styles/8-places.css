@@ -44,9 +44,8 @@
 /* Guests, rooms, and bathrooms information */
 .places .information {
 	align-items: center;
-	/* border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd; */
-	border: 3px solid black;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	display: flex;
 	flex-direction: row;
 	height: 80px;
