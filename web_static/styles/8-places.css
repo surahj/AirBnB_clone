@@ -44,8 +44,9 @@
 /* Guests, rooms, and bathrooms information */
 .places .information {
 	align-items: center;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+	/* border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd; */
+	border: 3px solid black;
 	display: flex;
 	flex-direction: row;
 	height: 80px;
@@ -57,7 +58,7 @@
 .places .max_guest,
 .places .number_rooms,
 .places .number_bathrooms {
-	/* width: 100px; */
+	width: 100px;
 }
 
 /* Padding around owner */
